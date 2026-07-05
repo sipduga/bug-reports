@@ -13,6 +13,12 @@ Open a new issue and fill in the "Bug report" form. Please **do not include
 any confidential report details** (report numbers, names, chronology,
 evidence, etc.) — this repository and its issues are public.
 
+**Not sure how to describe the problem?** Feel free to paste what happened
+into an AI assistant (ChatGPT, Claude, etc.) and ask it to help you write up
+the bug report and fill in the form fields — just make sure you (or the
+assistant) still strip out any confidential report details before
+submitting.
+
 ## For maintainers: triage flow
 
 The application code lives in two private repos (`sipduga/frontend`,

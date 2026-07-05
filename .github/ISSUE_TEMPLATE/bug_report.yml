@@ -12,6 +12,11 @@ body:
         public. Describe the technical problem only; the SIPDUGA team will
         follow up privately if they need more detail about a specific
         report.
+
+        💡 **Tip:** not sure how to describe the problem? You're welcome to
+        use an AI assistant (ChatGPT, Claude, etc.) to help you write it up
+        and fill in the fields below — just double-check that no
+        confidential report details slipped in before you submit.
   - type: textarea
     id: what-happened
     attributes:
