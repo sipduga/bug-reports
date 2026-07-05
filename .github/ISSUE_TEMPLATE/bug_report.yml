@@ -1,0 +1,58 @@
+name: Bug report
+description: Something in SIPDUGA UI isn't working as expected
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a problem with SIPDUGA UI.
+
+        **Please do not include any confidential report details** (report
+        number, names, chronology, evidence, etc.) in this form — it's
+        public. Describe the technical problem only; the SIPDUGA team will
+        follow up privately if they need more detail about a specific
+        report.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did you do, what did you expect, and what happened instead?
+      placeholder: Tell us what you saw
+    validations:
+      required: true
+  - type: input
+    id: page-url
+    attributes:
+      label: Page URL
+      description: The page where this happened (paste the full URL from your browser's address bar)
+    validations:
+      required: false
+  - type: dropdown
+    id: area
+    attributes:
+      label: Where did this happen?
+      options:
+        - Buat Laporan (submit a report)
+        - Ajukan Banding (submit an appeal)
+        - Cek (check report status)
+        - Home page
+        - Something else / not sure
+    validations:
+      required: true
+  - type: dropdown
+    id: device
+    attributes:
+      label: Device
+      options:
+        - Desktop / laptop
+        - Mobile phone
+        - Tablet
+    validations:
+      required: false
+  - type: input
+    id: browser
+    attributes:
+      label: Browser (and version, if known)
+      placeholder: e.g. Chrome 126, Safari on iOS 18
+    validations:
+      required: false
