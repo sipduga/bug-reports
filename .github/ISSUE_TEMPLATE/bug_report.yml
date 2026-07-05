@@ -16,7 +16,10 @@ body:
         💡 **Tip:** not sure how to describe the problem? You're welcome to
         use an AI assistant (ChatGPT, Claude, etc.) to help you write it up
         and fill in the fields below — just double-check that no
-        confidential report details slipped in before you submit.
+        confidential report details slipped in before you submit. If your
+        assistant can read files in this repo (e.g. Claude Code), have it
+        read [AGENTS.md](https://github.com/sipduga/bug-reports/blob/main/AGENTS.md)
+        first — it has the rules the assistant should follow.
   - type: textarea
     id: what-happened
     attributes:

@@ -17,7 +17,9 @@ evidence, etc.) — this repository and its issues are public.
 into an AI assistant (ChatGPT, Claude, etc.) and ask it to help you write up
 the bug report and fill in the form fields — just make sure you (or the
 assistant) still strip out any confidential report details before
-submitting.
+submitting. If you're using an AI coding assistant (e.g. Claude Code) that
+can read files in this repo, point it at [`AGENTS.md`](AGENTS.md) first —
+it has the rules the assistant should follow when filling this out.
 
 ## For maintainers: triage flow
 
